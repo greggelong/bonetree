@@ -5,6 +5,7 @@ function preload() {
   bone = loadImage("bone.png");
 }
 function setup() {
+  pixelDensity(1);
   createCanvas(windowWidth, windowHeight);
 
   background(0);
