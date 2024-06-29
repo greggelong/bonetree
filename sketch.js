@@ -11,7 +11,7 @@ function setup() {
   background(0);
   stroke("#AEA294");
   strokeWeight(26);
-  translate(width / 2, height);
+  translate(width / 2, height - height / 5);
   angleMode(DEGREES);
 
   //hand.resize(50,0)
@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
   //resetMatrix()
-  translate(width / 2, height);
+  translate(width / 2, height - height / 5);
   background(0);
   branch(300, 7, frameCount % 360);
 }
